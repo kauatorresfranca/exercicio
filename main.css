@@ -66,6 +66,20 @@ body{
     text-align: center;
 }
 
+.btn-success{
+    background-color:#d18c96 ;
+    border: none;
+}
+
+.btn-success:hover{
+    background-color: #FFB6C1;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 767px){
     .carousel-item img{
         height: 280px;
