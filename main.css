@@ -66,18 +66,23 @@ body{
     text-align: center;
 }
 
-.btn-success{
-    background-color:#d18c96 ;
+.btn{
+    background-color:#70c52b ;
     border: none;
 }
 
-.btn-success:hover{
-    background-color: #FFB6C1;
+.btn:hover{
+    background-color: #a6d67f;
 }
 
 .button-center{
     display: flex;
     justify-content: center;
+}
+
+.cancel{
+    background-color: red;
+    color:white
 }
 
 @media screen and (max-width: 767px){
